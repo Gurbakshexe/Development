@@ -1,0 +1,44 @@
+name: Homes
+version: 1.0
+author: Gurbaksh
+main: exe.gurbaksh.homes.HomesPlugin
+description: A lightweight homes management plugin
+commands:
+  home:
+    description: Teleport to your home
+    usage: /home [name]
+    aliases: [h]
+  sethome:
+    description: Set your current location as home
+    usage: /sethome [name]
+    aliases: [sh]
+  delhome:
+    description: Delete a home
+    usage: /delhome [name]
+    aliases: [dh]
+  listhomes:
+    description: List all your homes
+    usage: /listhomes
+    aliases: [lh]
+permissions:
+  homes.use:
+    description: Allow player to use home commands
+    default: true
+  homes.admin:
+    description: Allow admin access to homes plugin
+    default: op
+  homes.home:
+    description: Allow player to teleport to home
+    default: true
+  homes.sethome:
+    description: Allow player to set home
+    default: true
+  homes.delhome:
+    description: Allow player to delete home
+    default: true
+  homes.listhomes:
+    description: Allow player to list homes
+    default: true
+  homes.reload:
+    description: Allow player to reload plugin
+    default: op

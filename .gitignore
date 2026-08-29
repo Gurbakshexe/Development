@@ -1,0 +1,19 @@
+# Build
+target/
+*.jar
+*.zip
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven
+.m2/
+dependency-reduced-pom.xml
